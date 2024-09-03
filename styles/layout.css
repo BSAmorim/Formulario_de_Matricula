@@ -1,0 +1,28 @@
+#app{
+  display: grid;
+  /* fazendo um regra de três ((656*100)/1280) 1280 é a soma de 656+624, é possivel encontrar a pocentagem 51,25%  */
+  grid-template-columns: 51.25% 49.75%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+main{
+  overflow: auto;
+  padding: 4rem;
+
+  & .main-container {
+    max-width: 33rem;
+    margin-left: auto;
+  }
+}
+
+aside{
+  background-color: var(--surface-secundary);
+  padding: 4rem;
+
+  & .aside-container{
+    max-width: 31rem;
+
+  }
+}
