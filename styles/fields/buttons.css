@@ -10,7 +10,7 @@ button{
     color: white;
     background-color: #E43A12;
 
-    &:hover
+    &:hover,
     &:focus{
       background-color: #F3541C;
     }
